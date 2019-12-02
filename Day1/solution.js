@@ -47,7 +47,7 @@ function fuelRequirementTwo(arr) {
         let number = tempArr[0];
         while (number > 0) {
             if ((Math.floor(number / 3) - 2) > 0) {
-                tempArr.push((Math.floor(number / 3) - 2));
+                tempArr.push(Math.floor(number / 3) - 2);
                 number = tempArr[i];
                 i++;
             } else {
